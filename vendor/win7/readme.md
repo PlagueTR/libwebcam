@@ -1,0 +1,2 @@
+directshow baseclasses have been taken from Windows 7 SDK because I noticed that the Windows 7 SDK does not get installed correctly on some systems (including my own)
+This only includes the headers as that's all we really need
