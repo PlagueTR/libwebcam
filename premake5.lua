@@ -26,6 +26,10 @@ project "libwebcam"
     filter "system:windows"
         systemversion "latest"
 
+        defines {
+            "WIN32"
+        }
+
         files {
             "libwebcam/device/os/win/*.h",
             "libwebcam/device/os/win/*.cpp",
